@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brumapocket — decants de vidrio 5 ml para comercios</title>
+  <meta name="description" content="Decants de vidrio de 5 ml con spray, vacíos, para perfumerías, farmacias y cosméticas. Pack x10 a $11.000 ($1.100 c/u, IVA incluido). Preventa mayorista, con factura.">
+  <meta property="og:title" content="Brumapocket — decants de vidrio 5 ml para comercios">
+  <meta property="og:description" content="Pack x10 a $11.000 ($1.100 c/u, IVA incluido). Preventa mayorista para perfumerías, farmacias y cosméticas.">
+  <meta property="og:image" content="img/02-decant-pack.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="brand/logo-avatar.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --marfil:#F6F1EA;
+      --tinta:#1C1917;
+      --oro:#C4A07A;
+      --taupe:#8A7E74;
+      --blanco:#fff;
+      --max:1120px;
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth}
+    body{
+      margin:0;
+      font-family:Outfit,system-ui,sans-serif;
+      background:var(--marfil);
+      color:var(--tinta);
+      line-height:1.55;
+    }
+    a{color:inherit}
+    img{max-width:100%;display:block}
+    header{
+      position:sticky;top:0;z-index:20;
+      background:rgba(246,241,234,.92);
+      backdrop-filter:blur(8px);
+      border-bottom:1px solid rgba(28,25,23,.08);
+    }
+    .wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+    .nav{display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:72px}
+    .brand-lockup{display:flex;align-items:center;gap:10px;text-decoration:none}
+    .brand-lockup img.avatar{width:40px;height:40px;border-radius:50%;object-fit:cover}
+    .wordmark{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;font-size:1.45rem;letter-spacing:0;font-feature-settings:"liga" 0;}
+    .nav-links{display:flex;gap:18px;align-items:center;font-size:.95rem}
+    .nav-links a{text-decoration:none;color:var(--taupe)}
+    .nav-links a:hover{color:var(--tinta)}
+    .btn{
+      display:inline-flex;align-items:center;justify-content:center;
+      background:var(--tinta);color:var(--marfil);
+      text-decoration:none;border:0;border-radius:999px;
+      padding:12px 20px;font-weight:500;font-size:.95rem;
+    }
+    .btn:hover{opacity:.92}
+    .btn.oro{background:var(--oro);color:var(--tinta)}
+    .btn.ghost{background:transparent;color:var(--tinta);border:1px solid rgba(28,25,23,.2)}
+    .hero{padding:48px 0 24px}
+    .hero-grid{display:grid;gap:32px;align-items:center}
+    @media(min-width:800px){
+      .hero-grid{grid-template-columns:1.05fr .95fr;padding:24px 0 40px}
+    }
+    h1,h2,h3{font-family:"Cormorant Garamond",Georgia,serif;font-weight:700;line-height:1.15;margin:0 0 12px}
+    h1{font-size:clamp(2.2rem,6vw,3.8rem)}
+    h2{font-size:clamp(1.8rem,4vw,2.6rem)}
+    h3{font-size:1.35rem}
+    .eyebrow{letter-spacing:.14em;text-transform:uppercase;font-size:.72rem;color:var(--oro);font-weight:600;margin-bottom:10px}
+    .lede{font-size:1.12rem;color:var(--taupe);max-width:42ch}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+    .hero img.product, .shot{
+      width:100%;border-radius:24px;background:var(--blanco);
+      box-shadow:0 20px 50px rgba(28,25,23,.08);
+      object-fit:cover;
+    }
+    .hero img.product{
+      max-height:min(70vh, 640px);
+      object-position:center 28%;
+    }
+    .shot{object-fit:contain;background:#cfcfc8;max-height:640px}
+    .aviso{
+      background:#fff6ea;border:1px solid rgba(196,160,122,.45);
+      border-radius:16px;padding:14px 16px;font-size:.9rem;color:var(--taupe);margin:16px 0 0
+    }
+    section{padding:56px 0}
+    section.alt{background:rgba(255,255,255,.45)}
+    .section-head{max-width:42rem;margin-bottom:28px}
+    .cards{display:grid;gap:18px}
+    @media(min-width:720px){.cards.tres{grid-template-columns:repeat(3,1fr)}}
+    @media(min-width:800px){.cards.cuatro{grid-template-columns:repeat(4,1fr)}}
+    .card{
+      background:var(--blanco);border-radius:20px;overflow:hidden;
+      box-shadow:0 10px 30px rgba(28,25,23,.05);
+      display:flex;flex-direction:column;
+    }
+    .card .body{padding:22px 20px 24px;display:flex;flex-direction:column;gap:8px;flex:1}
+    .card.price-card{text-align:left}
+    .price{font-family:"Cormorant Garamond",Georgia,serif;font-size:2.15rem;font-weight:700;margin:4px 0}
+    .muted{color:var(--taupe);font-size:.95rem}
+    .tag{display:inline-block;font-size:.7rem;letter-spacing:.08em;text-transform:uppercase;color:var(--oro);font-weight:600}
+    .specs{display:grid;gap:18px;align-items:center}
+    @media(min-width:800px){.specs{grid-template-columns:1fr 1fr}}
+    .spec-list{list-style:none;margin:0;padding:0}
+    .spec-list li{
+      display:flex;gap:12px;align-items:flex-start;
+      padding:10px 0;border-bottom:1px solid rgba(28,25,23,.08);
+    }
+    .spec-list li:last-child{border-bottom:0}
+    .dot{color:var(--oro);font-weight:600;line-height:1.55}
+    .pasos{display:grid;gap:16px}
+    @media(min-width:800px){.pasos{grid-template-columns:repeat(4,1fr)}}
+    .paso{background:var(--blanco);border-radius:20px;padding:22px 20px;box-shadow:0 10px 30px rgba(28,25,23,.05)}
+    .num{
+      font-family:Outfit,system-ui,sans-serif;
+      font-size:1.35rem;color:var(--oro);font-weight:600;line-height:1;margin-bottom:8px;
+      letter-spacing:.04em;
+    }
+    .faq details{background:var(--blanco);border-radius:14px;padding:14px 18px;margin:0 0 10px}
+    .faq summary{cursor:pointer;font-weight:500}
+    .faq p{margin:8px 0 0;color:var(--taupe)}
+    footer{padding:36px 0 48px;color:var(--taupe);font-size:.85rem;border-top:1px solid rgba(28,25,23,.08)}
+    .contact-grid{display:grid;gap:20px}
+    @media(min-width:800px){.contact-grid{grid-template-columns:1.2fr .8fr}}
+    .mail-box{background:var(--tinta);color:var(--marfil);border-radius:20px;padding:28px}
+    .mail-box a.mail{color:var(--oro);font-weight:500;word-break:break-all}
+    .mail-box .btn{background:var(--oro);color:var(--tinta);margin-top:16px}
+    @media(max-width:799px){
+      .hero{padding:28px 0 16px}
+      .hero img.product{
+        order:-1;
+        max-height:360px;
+        object-position:center 40%;
+      }
+    }
+    @media(max-width:719px){
+      .nav-links .hide-sm{display:none}
+      .wordmark{font-size:1.25rem}
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap nav">
+      <a class="brand-lockup" href="#inicio">
+        <img class="avatar" src="brand/logo-avatar.jpg" alt="">
+        <span class="wordmark">Brumapocket</span>
+      </a>
+      <nav class="nav-links">
+        <a class="hide-sm" href="#producto">El producto</a>
+        <a class="hide-sm" href="#oferta">Precios</a>
+        <a class="hide-sm" href="#como-pedir">Cómo pedir</a>
+        <a class="btn" href="mailto:nodoventas.ar@gmail.com?subject=Pedido%20decants%20de%20vidrio%205%20ml&body=Hola%2C%20quiero%20pedir%20decants%20de%20vidrio%205%20ml.%0A%0ACantidad%3A%20%0ACiudad%20de%20env%C3%ADo%3A%20">Pedir por mail</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <p class="eyebrow">Preventa mayorista · Vidrio 5 ml · IVA incluido</p>
+          <h1>Decants de vidrio para tu mostrador.</h1>
+          <p class="lede">Frascos de 5 ml con spray, van vacíos. Sirven para muestras, decants, brumas o un tamaño de viaje. Los pedís en pack, los ponés en la caja y tus clientes se los llevan.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#oferta">Ver precios</a>
+            <a class="btn ghost" href="mailto:nodoventas.ar@gmail.com?subject=Pedido%20decants%20de%20vidrio%205%20ml&body=Hola%2C%20quiero%20pedir%20decants%20de%20vidrio%205%20ml.%0A%0ACantidad%3A%20%0ACiudad%20de%20env%C3%ADo%3A%20">Escribinos</a>
+          </div>
+          <p class="aviso">Trabajamos por preventa: no hay stock armado. Reservás con una seña del 50%, hacemos el pedido y te confirmamos el plazo. El saldo se abona antes del despacho.</p>
+        </div>
+        <img class="product" src="img/02-decant-pack.jpg" width="600" height="800" alt="Pack de frascos decant de vidrio de 5 ml con spray, vacíos">
+      </div>
+    </section>
+
+    <section id="para-tu-local" class="alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Para tu local</p>
+          <h2>Por qué le rinde a una perfumería, una farmacia o una cosmética.</h2>
+          <p class="muted">No es un perfume: es el envase. Un producto chico, de reposición frecuente, que se entiende solo en la caja.</p>
+        </div>
+        <div class="cards tres">
+          <article class="card">
+            <div class="body">
+              <span class="tag">Margen</span>
+              <h3>El precio de venta lo ponés vos.</h3>
+              <p class="muted">Te salen $1.100 c/u, IVA incluido. Es un ticket bajo: lo precías en el mostrador o en la caja, según tu rubro y tu zona.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="body">
+              <span class="tag">Rotación</span>
+              <h3>Para el uso de todos los días en el local.</h3>
+              <p class="muted">Muestras para que prueben antes de llevarse el frasco grande, decants, brumas, tónicos o un alcohol de bolsillo. El mismo envase cubre más de un uso.</p>
+            </div>
+          </article>
+          <article class="card">
+            <div class="body">
+              <span class="tag">Impulso</span>
+              <h3>Cabe al lado de la caja.</h3>
+              <p class="muted">Es chico, no pide góndola. Va en la vitrina, en el mostrador o al lado de la registradora, como un producto de impulso.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="producto">
+      <div class="wrap specs">
+        <img class="shot" src="img/01-decant-unidad.jpg" width="576" height="698" alt="Frasco decant de vidrio transparente de 5 ml con spray, vacío, de a una unidad" loading="lazy">
+        <div>
+          <p class="eyebrow">El producto</p>
+          <h2>Vidrio transparente, 5 ml, con spray.</h2>
+          <p class="muted">Fotos reales del producto. El envase va vacío: lo cargás vos, en el local, con lo que vendas.</p>
+          <ul class="spec-list">
+            <li><span class="dot">·</span><span>Frasco de vidrio transparente de 5 ml, con spray y tapa.</span></li>
+            <li><span class="dot">·</span><span>Recargable. Sirve para perfume, brumas, tónicos o alcohol.</span></li>
+            <li><span class="dot">·</span><span>Va vacío: no vendemos el líquido.</span></li>
+            <li><span class="dot">·</span><span>Pensado para comercios: perfumerías, farmacias, cosméticas, regalerías y mayoristas de envases.</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="usos" class="alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Usos</p>
+          <h2>Un frasco, el uso que le des en tu rubro.</h2>
+        </div>
+        <div class="cards cuatro">
+          <article class="card"><div class="body">
+            <span class="tag">Perfumerías</span>
+            <h3>Decants y muestras.</h3>
+            <p class="muted">Para que tus clientes prueben el perfume antes de comprar el frasco grande, o se lleven un decant.</p>
+          </div></article>
+          <article class="card"><div class="body">
+            <span class="tag">Farmacias</span>
+            <h3>Tamaño de bolsillo.</h3>
+            <p class="muted">Para fraccionar alcohol o antiséptico en un tamaño que entra en la cartera o en el mostrador.</p>
+          </div></article>
+          <article class="card"><div class="body">
+            <span class="tag">Cosméticas</span>
+            <h3>Brumas y tónicos.</h3>
+            <p class="muted">Muestras o tamaños chicos de brumas, tónicos y otros líquidos que ya vendas.</p>
+          </div></article>
+          <article class="card"><div class="body">
+            <span class="tag">Regalerías</span>
+            <h3>Viaje y souvenir.</h3>
+            <p class="muted">Un tamaño de viaje o un souvenir chico, para armar o para vender vacío.</p>
+          </div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Precios</p>
+          <h2>Packs para el local, a $1.100 c/u.</h2>
+          <p class="muted">IVA incluido, con factura. Comprás directo, sin comisiones de Mercado Libre. Si necesitás más de 50 unidades, consultá un precio especial por volumen.</p>
+        </div>
+        <div class="cards tres">
+          <article class="card price-card">
+            <div class="body">
+              <span class="tag">Pack x10</span>
+              <h3>Diez unidades</h3>
+              <p class="price">$11.000</p>
+              <p class="muted">$1.100 c/u · IVA incluido</p>
+            </div>
+          </article>
+          <article class="card price-card">
+            <div class="body">
+              <span class="tag">Pack x20</span>
+              <h3>Veinte unidades</h3>
+              <p class="price">$22.000</p>
+              <p class="muted">$1.100 c/u · IVA incluido</p>
+            </div>
+          </article>
+          <article class="card price-card">
+            <div class="body">
+              <span class="tag">Pack x50</span>
+              <h3>Cincuenta unidades</h3>
+              <p class="price">$55.000</p>
+              <p class="muted">$1.100 c/u · IVA incluido</p>
+            </div>
+          </article>
+        </div>
+        <p class="aviso">Preventa: confirmás con el 50% de seña, hacemos el pedido y abonás el saldo antes del despacho. El plazo te lo confirmamos al hacer el pedido. El envío se cotiza según tu ciudad.</p>
+      </div>
+    </section>
+
+    <section id="como-pedir" class="alt">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Cómo pedir</p>
+          <h2>Cuatro pasos, por mail.</h2>
+        </div>
+        <div class="pasos">
+          <article class="paso">
+            <div class="num">1</div>
+            <h3>Nos escribís</h3>
+            <p class="muted">Mandá un mail a nodoventas.ar@gmail.com con la cantidad y la ciudad de envío.</p>
+          </article>
+          <article class="paso">
+            <div class="num">2</div>
+            <h3>Reservás con el 50%</h3>
+            <p class="muted">Con la seña queda confirmado el pedido. Te pasamos cómo abonarla.</p>
+          </article>
+          <article class="paso">
+            <div class="num">3</div>
+            <h3>Te confirmamos el plazo</h3>
+            <p class="muted">Al hacer el pedido te decimos cuándo sale. El saldo se abona antes del despacho.</p>
+          </article>
+          <article class="paso">
+            <div class="num">4</div>
+            <h3>Lo enviamos</h3>
+            <p class="muted">El envío se cotiza según tu ciudad, cuando ya tenemos el destino.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Preguntas</p>
+          <h2>Lo que hay que decir sin letra chica.</h2>
+        </div>
+        <details open>
+          <summary>¿Lleva perfume o algún líquido?</summary>
+          <p>No. El envase va vacío. Lo cargás vos, en el local. No vendemos el líquido.</p>
+        </details>
+        <details>
+          <summary>¿Tienen stock para entregar ya?</summary>
+          <p>No. Trabajamos por preventa: el pedido se hace cuando confirmás con la seña. El plazo te lo confirmamos en ese momento.</p>
+        </details>
+        <details>
+          <summary>¿El precio incluye IVA? ¿Dan factura?</summary>
+          <p>Sí. Los precios están con IVA incluido y se facturan.</p>
+        </details>
+        <details>
+          <summary>¿Cómo se paga y cómo se envía?</summary>
+          <p>Seña del 50% al confirmar y saldo antes del despacho. El envío se cotiza según tu ciudad.</p>
+        </details>
+        <details>
+          <summary>¿Puedo pedir más de 50 unidades?</summary>
+          <p>Sí. Escribinos con la cantidad y te pasamos un precio especial por volumen.</p>
+        </details>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <div class="wrap contact-grid">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2>Pedilo por mail, con la cantidad y la ciudad.</h2>
+          <p class="muted">Te respondemos con la seña, el plazo y el envío cotizado a tu ciudad. Envíos a todo el país.</p>
+        </div>
+        <div class="mail-box">
+          <h3 style="color:#F6F1EA">Brumapocket</h3>
+          <p>Preventa mayorista de decants de vidrio 5 ml.</p>
+          <p><a class="mail" href="mailto:nodoventas.ar@gmail.com">nodoventas.ar@gmail.com</a></p>
+          <a class="btn" href="mailto:nodoventas.ar@gmail.com?subject=Pedido%20decants%20de%20vidrio%205%20ml&body=Hola%2C%20quiero%20pedir%20decants%20de%20vidrio%205%20ml.%0A%0ACantidad%3A%20%0ACiudad%20de%20env%C3%ADo%3A%20">Escribir a nodoventas.ar@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="wrap">
+      <p>© 2026 Brumapocket. Marca de fantasía en uso de hecho. No está registrada en el INPI al momento de armar este sitio.</p>
+    </div>
+  </footer>
+</body>
+</html>
